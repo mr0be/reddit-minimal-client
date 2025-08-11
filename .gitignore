@@ -109,3 +109,4 @@ Thumbs.db
 /package-lock.json
 /wallstreetbets-posts.json
 /src/index.ts
+/.npmignore
