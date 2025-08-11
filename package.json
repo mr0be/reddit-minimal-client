@@ -3,9 +3,7 @@
   "version": "1.0.5",
   "description": "minimal Reddit client for loading new posts + comments",
   "license": "MIT",
-  "type": "module",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
