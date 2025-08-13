@@ -75,6 +75,7 @@ interface RedditPost {
   selftext: string;              // Post text content
   url: string;                   // Post URL
   created: string;               // ISO date string
+  score: number;                 // Up/downvotes score
   comments: RedditComment[];     // Array of comments
 }
 ```
