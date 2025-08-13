@@ -78,6 +78,7 @@ export class RedditClient{
           selftext: post.selftext || "",
           url: post.url,
           created: dayjs.unix(post.created_utc).format(),
+          score:post.score,
           comments,
         });
         if (i < postsChildren.length - 1) {

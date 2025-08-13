@@ -13,6 +13,7 @@ export interface RedditComment {
     selftext: string;
     url: string;
     created: string;
+    score: number;
     comments: RedditComment[];
   }
   

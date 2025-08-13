@@ -110,3 +110,5 @@ Thumbs.db
 /wallstreetbets-posts.json
 /src/index.ts
 /.npmignore
+/result.json
+/src/main.ts
